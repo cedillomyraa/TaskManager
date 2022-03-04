@@ -1,0 +1,145 @@
+header{
+    background-color:  rgb(48, 78, 48) ;
+    text-align: center;
+    color: rgb(189, 176, 143);
+    font-family: papyrus;
+    padding-bottom: 1px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+header h3.title{
+    font-weight: bolder;
+    font-size: 35px;
+    margin: auto;
+    letter-spacing: 3px;
+}
+
+main {
+    display: flex;
+
+}
+
+#list {
+    flex: 3;
+}
+
+#form {
+    flex: 2;
+}
+
+#iImportant{
+    cursor: pointer;
+    font-size: 14px;
+    color: goldenrod;
+}
+
+main{
+    background-image: url("background.jpg");
+    background-size: cover;
+}  
+
+.form-control{
+    background: rgb(48, 78, 48, 0.5);
+    border-color: rgb(189, 176, 143);
+}
+
+ #form{
+    font-family: papyrus;
+    font-weight: bolder;
+    color: rgb(189, 176, 143);
+    font-size: 16px;
+    margin: 7px 7px 7px 0;
+ }
+
+section#form button{
+    background-color: rgb(48, 78, 48);
+    margin-top: 5px;
+    align-items: center;
+    color: rgb(189, 176, 143);
+}
+
+section#list button{
+    background-color: rgb(189, 176, 143);
+    margin-top: 5px;
+    border: none;
+    color: rgb(48, 78, 48);
+    font-family: papyrus;
+    font-weight: bolder;
+}
+
+.delete-all button{
+    background-color: rgb(189, 176, 143);
+    margin-top: 5px;
+    border: none;
+    color: rgb(48, 78, 48);
+    font-family: papyrus;
+    font-weight: bolder;
+}
+#form.form-label{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    flex: auto;
+}
+
+main section#form{
+    background-color:rgb(48, 78, 48, 0.8) ;
+    margin: 7px 7px 7px 0;
+    text-align: center;
+    
+}
+
+#txtDueDate{
+    color: rgb(189, 176, 143);
+    text-align: center;
+    font-size: 18px;
+}
+section label.form-label{
+    
+    padding-top: 5px;
+}
+
+.task-object{
+    color: rgb(48, 78, 48);
+    display: flex;
+    background-color: rgb(189, 176, 143, 0.8);
+    border-color:  rgb(189, 176, 143);
+    margin: 7px 7px 7px 7px;
+    border: dotted;
+    
+    align-items: center;
+    border-radius: 4px;
+    font-family: papyrus;
+    font-weight: bold;
+    
+}
+
+.task-title{
+    flex: 1;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+.due-date{
+    flex: 1;
+   text-align: center;
+   padding-left: 10px;
+   margin-left: 3px;
+}
+
+.people{
+    flex:3;
+    text-align: center;
+    
+}
+.location{
+    flex: 2;
+}
+.notes{
+    flex: 2;
+}
+.category{
+    flex: 2;
+}
